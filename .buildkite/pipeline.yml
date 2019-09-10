@@ -11,5 +11,5 @@ steps:
           value: "beta"
         - label: "Stable"
           value: "stable"
-  - command: .builkdkite/scripts/release.sh
+  - command: .buildkite/scripts/release.sh
     label: ":rocket:"
