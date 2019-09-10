@@ -4,4 +4,4 @@ set -eu
 
 RELEASE_TYPE=$(buildkite-agent meta-data get release-type)
 
-echo "Executing pipeline with values ${RELEASE_TYPE}"
+echo "Executing pipeline with values ${RELEASE_TYPE} on commit ${BUILDKITE_COMMIT}"
